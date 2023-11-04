@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+section{
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+section.main{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(model-s.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img{
+    width: 120px;
+    position: relative;
+}
+.menu{margin-top: 15px;}
+
+.menu a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #171a20;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 5px;
+}
+
+.menu a:hover{
+    background-color: rgb(200, 200, 200, 0.4);
+    border-radius: 5px
+}
+
+.title{
+    text-align: center;
+    margin: 40px;
+    font-size: 21px;
+    letter-spacing: 1.2px;
+}
+
+.title h2{
+    color: #171a20;
+}
+
+.subtitle{
+    color:#171a20;
+    font-size: 15;
+}
+
+.btn{
+    position: absolute;
+    bottom: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn a{
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
